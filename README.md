@@ -24,5 +24,5 @@ Binwalk, Exiftool, tcpdump, tshark, John,
 Hashcat, Hydra, Python3
 
 ## Connect
-- LinkedIn: your linkedin URL here
-- TryHackMe: your tryhackme URL here
+- LinkedIn: https://www.linkedin.com/in/vijay-gaddi-433659244/
+- TryHackMe: https://tryhackme.com/p/vijaygaddi89
