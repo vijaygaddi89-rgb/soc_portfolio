@@ -13,10 +13,12 @@ on Ubuntu LTS home lab.
 - OS: Ubuntu LTS Linux
 
 ## Investigations
-| Day | Investigation | Type |
-|-----|--------------|------|
-| 1 | Apache Log Analysis | Web Attack Detection |
-| 1 | SSH Brute Force Detection | Auth Log Analysis |
+| Day | Investigation | Type | Severity |
+|-----|--------------|------|----------|
+| 1 | Apache Log Analysis | Web Attack Detection | Medium |
+| 1 | SSH Brute Force Detection | Auth Log Analysis | High |
+| 2 | Network Traffic Analysis | Packet Capture | Low |
+| 2 | Port Scan Detection | Reconnaissance Detection | High |
 
 ## Tools Installed
 Wireshark, Suricata, Nmap, Splunk, YARA,
