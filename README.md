@@ -19,6 +19,7 @@ on Ubuntu LTS home lab.
 | 1 | SSH Brute Force Detection | Auth Log Analysis | High |
 | 2 | Network Traffic Analysis | Packet Capture | Low |
 | 2 | Port Scan Detection | Reconnaissance Detection | High |
+| 3 | Splunk SIEM Setup | Log Aggregation | Info |
 
 ## Tools Installed
 Wireshark, Suricata, Nmap, Splunk, YARA,
