@@ -6,7 +6,7 @@ Hands-on investigations, scripts and projects built
 on Ubuntu LTS home lab.
 
 ## Tools & Skills
-- SIEM: Splunk
+- SIEM: Splunk Enterprise
 - Network Analysis: Wireshark, tcpdump, tshark
 - IDS: Suricata
 - Languages: Python, Bash
@@ -19,7 +19,16 @@ on Ubuntu LTS home lab.
 | 1 | SSH Brute Force Detection | Auth Log Analysis | High |
 | 2 | Network Traffic Analysis | Packet Capture | Low |
 | 2 | Port Scan Detection | Reconnaissance Detection | High |
-| 3 | Splunk SIEM Setup | Log Aggregation | Info |
+| 3 | Splunk SIEM Dashboard | Log Visualization | Info |
+
+## Splunk Dashboard
+Built a 4 panel SOC monitoring dashboard in Splunk:
+- SSH Brute Force Attempts Over Time (Line Chart)
+- Top Attacked URLs 404 Errors (Bar Chart)
+- Total Brute Force Attempts (Single Value: 72)
+- Events by Log Source (Pie Chart)
+
+Screenshots available in /screenshots folder
 
 ## Tools Installed
 Wireshark, Suricata, Nmap, Splunk, YARA,
