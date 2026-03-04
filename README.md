@@ -21,11 +21,15 @@ on Ubuntu LTS home lab.
 | 2 | Port Scan Detection | Reconnaissance Detection | High |
 | 3 | Splunk SIEM Dashboard | Log Visualization | Info |
 | 4 | Python Brute Force Detector | Security Automation | High |
+| 4 | Python Apache Log Analyzer | Security Automation | High |
+| 4 | Python Network Analyzer | Security Automation | High |
 
 ## Python Security Tools
-| Tool | Description | Language |
-|------|-------------|----------|
-| brute_force_detector.py | Detects SSH brute force attacks automatically | Python |
+| Tool | Description |
+|------|-------------|
+| brute_force_detector.py | Detects SSH brute force attacks automatically |
+| apache_log_analyzer.py | Detects web attacks and directory scanning |
+| network_analyzer.py | Analyzes pcap files for suspicious traffic |
 
 ## Splunk Dashboard
 Real time security monitoring dashboard built in Splunk Enterprise.
