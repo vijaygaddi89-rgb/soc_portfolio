@@ -20,15 +20,21 @@ on Ubuntu LTS home lab.
 | 2 | Network Traffic Analysis | Packet Capture | Low |
 | 2 | Port Scan Detection | Reconnaissance Detection | High |
 | 3 | Splunk SIEM Dashboard | Log Visualization | Info |
+| 4 | Python Brute Force Detector | Security Automation | High |
+
+## Python Security Tools
+| Tool | Description | Language |
+|------|-------------|----------|
+| brute_force_detector.py | Detects SSH brute force attacks automatically | Python |
 
 ## Splunk Dashboard
-Built a 4 panel SOC monitoring dashboard in Splunk:
+Real time security monitoring dashboard built in Splunk Enterprise.
+
+### Dashboard Panels
 - SSH Brute Force Attempts Over Time (Line Chart)
 - Top Attacked URLs 404 Errors (Bar Chart)
 - Total Brute Force Attempts (Single Value: 72)
 - Events by Log Source (Pie Chart)
-
-Screenshots available in /screenshots folder
 
 ## Tools Installed
 Wireshark, Suricata, Nmap, Splunk, YARA,
